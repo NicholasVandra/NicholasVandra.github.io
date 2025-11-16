@@ -1,34 +1,73 @@
 ---
 layout: about
-title: about
+title: About Me
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+profile: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+# Hi, I'm Nicholas Vandra
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I’m an **aspiring Machine Learning Engineer** and current **Data Science graduate student**, driven by a passion for **deep learning**, **neural networks**, and especially **audio-based AI models**. My work focuses on building next-generation systems that go beyond traditional text-centric models — including **audio transformers**, multi-headed decoders, and hybrid CNN/RNN architectures.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My technical experience includes:
+
+- Neural networks & deep learning  
+- Machine learning pipelines  
+- Transformer architectures  
+- Distributed computing & cloud engineering  
+- Software engineering in Python, Java, and C++  
+- Data engineering, preprocessing & feature extraction  
+- GPU-accelerated model training and optimization  
+
+---
+
+## Education
+
+**M.S. in Data Science**  
+*Southern Methodist University*
+
+**B.S. in Computer Science**  
+*California State University, Monterey Bay*
+
+---
+
+## Research Interests
+
+- Large-scale audio modeling  
+- Raw-audio neural networks  
+- Transformer encoder/decoder architectures  
+- Speech-based sentiment analysis  
+- Multimodal learning (audio → text)  
+- Deep learning optimization & GPU efficiency  
+
+---
+
+## What I’m Working On
+
+I’m currently developing a **new type of audio transformer architecture**, where:
+
+- A hybrid **CNN + BiLSTM** model extracts spectral and temporal features  
+- A transformer encoder learns long-range structure  
+- Multiple decoders handle **speech recognition**, **sentiment analysis**, and **text generation**  
+- A final multi-headed decoder merges outputs into a unified prediction  
+
+This ongoing research project aims to push the boundaries of audio-focused machine learning.
+
+---
+
+## Beyond Research
+
+I’ve built software ranging from JVM-based business applications to modern data and ML pipelines in Python. I also enjoy:
+
+- ML experimentation  
+- GPU acceleration  
+- Software architecture  
+- Data visualization  
+- Robotics and mechatronics  
+
+---
+
+## Get in Touch
+
+I’m always excited to collaborate on ML research, open-source projects, or applied AI systems.  
+Feel free to reach out anytime!
