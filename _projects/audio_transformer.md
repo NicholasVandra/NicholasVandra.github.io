@@ -1,46 +1,91 @@
 ---
-layout: page
-title: Audio Transformer Research
-description: Development of a multi-headed audio transformer for speech recognition, sentiment analysis, and text generation.
-img: /assets/img/profile.jpg
-importance: 1
+layout: project
+title: "Deep Audio Transformer Architecture"
+description: "A multi-headed audio transformer designed for speech recognition, sentiment analysis, and text generation using raw audio."
+img: /assets/img/projects/audio_transformer.jpg  # optional if you add one later
 category: Machine Learning
+tags: [deep learning, audio modeling, transformers, neural networks]
+importance: 1
 ---
 
-# Audio Transformer Research
+## Overview
 
-This is my ongoing capstone and research project: designing and implementing a **next-generation audio transformer** capable of performing multiple tasks using raw or minimally processed audio.
+This project introduces a **new type of audio transformer architecture** designed to process raw audio and perform multiple downstream tasks through a multi-headed decoding framework. The model combines CNNs, BiLSTMs, and Transformer layers to capture both local acoustic features and long-range temporal dependencies.
 
-## Goal
-To create a transformer architecture that handles **speech recognition**, **sentiment analysis**, and **text generation**, each through its own decoder, and then merges the outputs into a unified representation.
+This is my primary ongoing research project as a **Data Science graduate student** and aspiring **Machine Learning Engineer**.
 
-## Architecture
-- **Hybrid CNN–BiLSTM Feature Extractor**  
-  - Mel spectrogram + MFCC input  
-  - Temporal + spectral fusion  
-- **Transformer Encoder**  
-  - Multi-head attention  
-  - Positional encoding  
-  - 6 to 12 encoder layers  
-- **Multiple Decoders**  
-  1. Speech Recognition Decoder (phoneme prediction)  
-  2. Sentiment Decoder  
-  3. Language Modeling Decoder  
-- **Final Multi-Headed Decoder**  
-  - Concatenates the individual decoder outputs  
-  - Produces a unified final prediction  
+---
 
-## Training Pipeline
-- Custom streaming dataset generators  
-- 560k+ samples across **Common Voice**, **MELD**, **LibriTTS**  
-- GPU-optimized training on NVIDIA A6000  
-- Chunked `.npy` storage for memory safety  
-- Label smoothing + beam search decoding  
+## Architecture Summary
 
-## Status
-- Encoder fully trained  
-- Speech recognition decoder operational  
-- Multiheaded decoder in active development  
+### **1. Feature Extraction**
+A hybrid **CNN + BiLSTM** extractor captures:
+- Local spectral patterns (via CNN)
+- Temporal dependencies (via BiLSTM)
+- Combined mel-spectrogram + MFCC features
 
-## Tools & Technologies
-Python, TensorFlow/Keras, PyTorch (planned), NumPy, Matplotlib, Librosa, CUDA, Jupyter, Git, WSL2
+### **2. Positional Encoding**
+Features are converted to sequences and embedded using sinusoidal positional encoding.
+
+### **3. Transformer Encoder**
+- Multi-head self-attention
+- Feed-forward layers  
+- Layer normalization + dropout  
+- Trained on large mixed datasets (Common Voice, LibriTTS, MELD)
+
+### **4. Multi-Decoder System (Novel Component)**
+Each decoder specializes in a different downstream task:
+- **Speech Recognition Decoder** → predicts phoneme sequences  
+- **Sentiment Analysis Decoder** → predicts emotional tone  
+- **Text Generation Decoder** → generates language conditioned on audio  
+
+Finally, a **fusion decoder** merges outputs to produce a robust final inference.
+
+---
+
+## Goals & Contributions
+
+- Build a fully raw-audio transformer without relying on text preprocessing.  
+- Explore multi-task learning in audio systems.  
+- Improve representation learning through hybrid encoders.  
+- Train using memory-safe streaming pipelines for massive datasets.  
+- Investigate decoder fusion as a new architecture style in audio ML.
+
+---
+
+## Technologies Used
+
+- **Python, TensorFlow, PyTorch**
+- **Mel Spectrograms, MFCC**
+- **Transformers / Attention Mechanisms**
+- **GPU Training (NVIDIA A6000)**
+- **Distributed data loading (WSL, memmap)**  
+- **Common Voice + LibriTTS + MELD datasets**
+
+---
+
+## Current Status
+
+- **Feature extraction network fully completed** (MFCC + Mel fusion with CNN–BiLSTM pipeline)  
+- **Transformer encoder fully trained, validated, and stress-tested**  
+- **Speech recognition decoder built and currently undergoing evaluation**  
+- **Multi-headed decoder framework implemented**  
+- **Actively developing the additional decoder heads** for  
+  - sentiment analysis  
+  - text generation
+  - classification
+  - other downstream audio-based tasks  
+- Preparing full evaluation metrics, cross-dataset tests, and ablation studies   
+
+---
+
+## Future Plans
+
+- Implement beam search with improved phoneme handling  
+- Add multilingual audio support  
+- Build demo web interface for real-time speech recognition  
+- Publish a paper on the multi-headed transformer architecture  
+
+---
+
+Just tell me which ones to include!
