@@ -451,7 +451,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-audio-transformer-research",
+          section: "News",},{id: "projects-audio-sentiment-analysis-model",
+          title: 'Audio Sentiment Analysis Model',
+          description: "A hybrid deep learning neural network that predicts sentiment directly from speech audio using MFCC–Mel fusion, CNNs, and BiLSTMs.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/audio-sentiment-analysis/";
+            },},{id: "projects-audio-transformer-research",
           title: 'Audio Transformer Research',
           description: "Development of a multi-headed audio transformer for speech recognition, sentiment analysis, and text generation.",
           section: "Projects",handler: () => {
