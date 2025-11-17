@@ -461,6 +461,11 @@ ninja.data = [{
           description: "A multi-headed audio transformer designed for speech recognition, sentiment analysis, and text generation using raw audio.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/audio_transformer/";
+            },},{id: "projects-nba-machine-learning-regression-model",
+          title: 'NBA Machine Learning Regression Model',
+          description: "Predicting NBA player performance using linear regression and statistical modeling.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/nba-regression/";
             },},{
         id: 'social-email',
         title: 'email',
