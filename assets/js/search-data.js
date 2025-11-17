@@ -470,7 +470,7 @@ ninja.data = [{
           title: 'Java Fitness Application',
           description: "Full-stack Java application designed for managing workout routines and fitness logs.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/java_fitness_app/";
+              window.location.href = "/projects/java-fitness-app/";
             },},{id: "projects-nba-machine-learning-regression-model",
           title: 'NBA Machine Learning Regression Model',
           description: "Predicting NBA player performance using linear regression and statistical modeling.",
