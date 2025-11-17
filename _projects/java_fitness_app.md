@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: Java Fitness Application
 description: Full-stack Java application designed for managing workout routines and fitness logs.
 img: /assets/img/profile.jpg
