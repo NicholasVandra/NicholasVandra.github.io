@@ -460,7 +460,7 @@ ninja.data = [{
           title: 'Deep Audio Transformer Architecture',
           description: "A multi-headed audio transformer designed for speech recognition, sentiment analysis, and text generation using raw audio.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/audio_transformer/";
+              window.location.href = "/projects/audio-transformer/";
             },},{id: "projects-psc-doctor-locator",
           title: 'PSC Doctor Locator',
           description: "A web-based tool developed during my internship to help users locate nearby professionals.",
