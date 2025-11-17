@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: NBA Machine Learning Regression Model
 description: Predicting NBA player performance using linear regression and statistical modeling.
 img: /assets/img/profile.jpg
