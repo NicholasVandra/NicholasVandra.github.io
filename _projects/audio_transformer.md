@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: page
 title: "Deep Audio Transformer Architecture"
 description: "A multi-headed audio transformer designed for speech recognition, sentiment analysis, and text generation using raw audio."
 img: /assets/img/projects/audio_transformer.jpg  # optional if you add one later
