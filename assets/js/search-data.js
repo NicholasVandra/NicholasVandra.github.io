@@ -465,7 +465,7 @@ ninja.data = [{
           title: 'PSC Doctor Locator',
           description: "A web-based tool developed during my internship to help users locate nearby professionals.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/google_maps_doctor_locator/";
+              window.location.href = "/projects/google-maps-doctor-locator/";
             },},{id: "projects-java-fitness-application",
           title: 'Java Fitness Application',
           description: "Full-stack Java application designed for managing workout routines and fitness logs.",
