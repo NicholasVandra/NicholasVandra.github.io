@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: "Audio Sentiment Analysis Model"
 description: "A hybrid deep learning neural network that predicts sentiment directly from speech audio using MFCC–Mel fusion, CNNs, and BiLSTMs."
 img: /assets/img/profile.jpg
