@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: PSC Doctor Locator
 description: A web-based tool developed during my internship to help users locate nearby professionals.
 img: /assets/img/profile.jpg
