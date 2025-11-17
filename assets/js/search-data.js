@@ -455,7 +455,7 @@ ninja.data = [{
           title: 'Audio Sentiment Analysis Model',
           description: "A hybrid deep learning neural network that predicts sentiment directly from speech audio using MFCC–Mel fusion, CNNs, and BiLSTMs.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/audio_sentiment_analysis/";
+              window.location.href = "/projects/audio-sentiment-analysis/";
             },},{id: "projects-deep-audio-transformer-architecture",
           title: 'Deep Audio Transformer Architecture',
           description: "A multi-headed audio transformer designed for speech recognition, sentiment analysis, and text generation using raw audio.",
