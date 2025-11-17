@@ -475,7 +475,7 @@ ninja.data = [{
           title: 'NBA Machine Learning Regression Model',
           description: "Predicting NBA player performance using linear regression and statistical modeling.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/nba-regression/";
+              window.location.href = "/projects/nba_regression/";
             },},{
         id: 'social-email',
         title: 'email',
