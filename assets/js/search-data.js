@@ -461,6 +461,11 @@ ninja.data = [{
           description: "A multi-headed audio transformer designed for speech recognition, sentiment analysis, and text generation using raw audio.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/audio_transformer/";
+            },},{id: "projects-psc-doctor-locator",
+          title: 'PSC Doctor Locator',
+          description: "A web-based tool developed during my internship to help users locate nearby professionals.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/google-maps-doctor-locator/";
             },},{id: "projects-java-fitness-application",
           title: 'Java Fitness Application',
           description: "Full-stack Java application designed for managing workout routines and fitness logs.",
