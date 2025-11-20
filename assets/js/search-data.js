@@ -429,9 +429,9 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-",
-          title: '',
-          description: "",
+          section: "News",},{id: "projects-employee-attrition-analysis",
+          title: 'Employee Attrition Analysis',
+          description: "A data science project exploring employee attrition using KNN and Naive Bayes. Includes data preprocessing, visualization, modeling, and evaluation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/attrition/";
             },},{id: "projects-audio-sentiment-analysis-model",
