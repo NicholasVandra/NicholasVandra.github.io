@@ -2,10 +2,11 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-first_name: Nicholas
-middle_name:
-last_name: Vandra
-profile_image: /assets/img/profile.jpg
+profile:
+  image: "/assets/img/profile.jpg"
+  name: "Nicholas Vandra"
+  position: "Aspiring Machine Learning Engineer"
+  address: ""
 
 # The small text under your name on the front page
 contact_note: >
