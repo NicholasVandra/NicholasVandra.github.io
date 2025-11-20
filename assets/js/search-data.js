@@ -429,7 +429,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-audio-sentiment-analysis-model",
+          section: "News",},{id: "projects-",
+          title: '',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/attrition/";
+            },},{id: "projects-audio-sentiment-analysis-model",
           title: 'Audio Sentiment Analysis Model',
           description: "A hybrid deep learning neural network that predicts sentiment directly from speech audio using MFCC–Mel fusion, CNNs, and BiLSTMs.",
           section: "Projects",handler: () => {
